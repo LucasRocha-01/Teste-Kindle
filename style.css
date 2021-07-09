@@ -28,6 +28,12 @@ h1, h2, h3, p {
     object-fit: cover;
 }
 
+.link-post-unico {
+    color: rgb(54, 45, 150);
+    font-family: "UniversLight",Calibri,Myriad,Tahoma,Geneva;
+    font-weight: 100;
+    margin-top: 10px;
+}
 
 .img-post-unico {
     width: 100%;
@@ -157,9 +163,14 @@ label, .comment-reply-title {
         display: inline-block;
         margin: 10px auto;
         padding: 10px;
-        width: 200px;
+        width: 30%;
     
         box-shadow: 3px 5px 14px 5px rgba(0,0,0,0.38);
+
+        transition: all  0.2s;
+    }
+    .post-unico:hover {
+        transform: translateY(-20px);
     }
 }
 
